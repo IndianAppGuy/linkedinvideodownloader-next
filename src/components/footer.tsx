@@ -53,13 +53,24 @@ export function Footer() {
           </div>
           <div>
             <h3 className="text-sm font-semibold text-foreground">
-              Supported Formats
+              Other Tools
             </h3>
             <ul className="mt-3 space-y-2 text-sm text-muted-fg">
-              <li>LinkedIn Post Videos</li>
-              <li>LinkedIn Article Videos</li>
-              <li>LinkedIn Profile Videos</li>
-              <li>LinkedIn Company Page Videos</li>
+              <li>
+                <a href="https://linkedincarousel.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                  LinkedIn Carousel Generator
+                </a>
+              </li>
+              <li>
+                <a href="https://www.magicslides.app" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                  AI Presentation Maker
+                </a>
+              </li>
+              <li>
+                <a href="https://www.askvideo.ai" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                  Chat with YouTube Videos
+                </a>
+              </li>
             </ul>
           </div>
         </div>
