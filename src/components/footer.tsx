@@ -74,10 +74,12 @@ export function Footer() {
             </ul>
           </div>
         </div>
-        <div className="mt-8 pt-6 border-t border-border-color">
+        <div className="mt-8 pt-6 border-t border-border-color space-y-3">
+          <p className="text-xs text-muted-fg text-center font-medium">
+            Disclaimer: LinkedInVideoDownloader.io is an independent tool and is not affiliated with, endorsed by, or associated with LinkedIn Corporation or Microsoft Corporation in any way. LinkedIn&reg; is a registered trademark of LinkedIn Corporation and/or Microsoft Corporation.
+          </p>
           <p className="text-xs text-muted text-center">
-            This tool is not affiliated with LinkedIn. LinkedIn is a trademark of Microsoft Corporation.
-            Please respect content creators&apos; rights when downloading videos.
+            This tool is provided for personal use only. Please respect content creators&apos; rights and copyrights when downloading videos. We do not store any videos or user data.
           </p>
         </div>
       </div>
