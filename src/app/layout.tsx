@@ -7,7 +7,7 @@ const outfit = Outfit({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://linkedinvideodownloader.com";
+const siteUrl = "https://linkedinvideodownloader.io";
 
 export const metadata: Metadata = {
   title: {
